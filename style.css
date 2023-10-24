@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(161, 255, 250);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(80, 44, 44));
+}
+.div-1{
+    border: 2px solid rgb(173, 236, 243);
+    border-radius: 5px;
+    background-color:cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+    margin-top: 55px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 4px 6px 8px 4px rgba(38, 7, 11, 0.6);
+}
+.head-1{
+    color:rgba(34, 35, 31, 0.832);
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 55px;
+    width: 90%;
+    border-radius: 10px;
+    text-shadow: 4px 4px 4px ;
+    border: 4px solid rgb(133, 167, 187);
+    background-color: rgba(119, 115, 167, 0.6);
+    box-shadow: 4px 6px 8px 2px rgba(68, 13, 13, 0.6);
+}
+.btn-1{
+    margin-top: 40px;
+    height: 60px;
+    width: 120px;
+    border: 2px solid rgb(227, 242, 227);
+    border-radius: 30px;
+    background-color: rgb(226, 215, 215);
+    color: rgb(13, 3, 3);
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 4px 6px 8px 2px rgba(38, 7, 11, 0.6);
+}
+.btn-1:hover{
+    background-image: linear-gradient(to right, rgba(76, 65, 65, 0), rgb(200, 80, 15));
+    color: red;
+    border: black;
+    
+}
+#payment-ui {
+    display: none;
+    background-color: #52ad1030;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 600px;
+    margin-top: 35px;
+    background-image: linear-gradient(to right, rgba(76, 65, 65, 0), rgb(200, 80, 15));
+    border: 2px solid rgb(227, 242, 227);
+    border-radius: 30px;
+    box-shadow: 4px 6px 8px 2px rgba(38, 7, 11, 0.6);
+}
